@@ -50,7 +50,7 @@ class Main
 		tf = new TextField();
 		tf.width = 200;
 		tf.height = 100;
-		tf.text = "this is a flash text field, the content of the text area will be copied here";
+		tf.text = "this is a flash text field,\n the content of the text area\n will be copied here";
 		
 		flash.Lib.current.addChild(tf);
 	}
