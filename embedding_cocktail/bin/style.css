@@ -1,9 +1,7 @@
 
-h2, h3 {
-	border-bottom:black solid thin;
+body {
+	margin:0;
 }
-
-
 form {
 	width:200px;
 	border:black solid thin;
@@ -12,10 +10,4 @@ form {
 
 textarea {
 	width:100%;
-}
-
-input[type=reset], input[type=submit] {
-	box-sizing:content-box;
-	padding-left:0;
-	padding-right:0;
 }
