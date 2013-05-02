@@ -7,9 +7,9 @@
  * http://www.silexlabs.org/labs/cocktail-licensing/
 */
 import cocktail.api.CocktailView;
-import cocktail.core.html.HTMLTextAreaElement;
 import flash.text.TextField;
 import js.Lib;
+import js.Dom;
 
 /**
  * Show how to include a cocktail view into a flash/NME app.
@@ -90,7 +90,7 @@ class Main
 		e.preventDefault();
 		
 		var form = e.target;
-		var ta:HTMLTextAreaElement = cast cv.document.getElementById("ta");
+		var ta:TextArea = cast cv.document.getElementById("ta");
 		tf.text = ta.value;
 	}
 }
